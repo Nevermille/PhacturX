@@ -1,0 +1,22 @@
+{
+    "name": "lianhua/phacturx",
+    "description": "A simple PHP library to create Factur-X files",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Camille Bernard",
+            "email": "admin@lianhua.dev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lianhua\\PhacturX\\": "src/"
+        }
+    }
+}
