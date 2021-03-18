@@ -72,7 +72,7 @@ class FacturX
 
         // Output file path
         $outDir = realpath(dirname($outputFile));
-        $outPdf = $outDir . DIRECTORY_SEPARATOR . $outputFile;
+        $outPdf = $outDir . DIRECTORY_SEPARATOR . basename($outputFile);
 
         // Create the temp directory
         $dir = sys_get_temp_dir() . DIRECTORY_SEPARATOR . bin2hex(openssl_random_pseudo_bytes(8));
